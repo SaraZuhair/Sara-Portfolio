@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sara{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto ;
+  }
+
+  #note{
+    color: red;
+  }
+
+  .gallery-grid{
+    width: 50%;
+    height: 270px;
+    object-fit: cover;
+    margin-top: 10px;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+
+
+  .gallery-single{
+    
+}
